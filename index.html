@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
@@ -16,6 +18,12 @@
         .font1{
                 font-family: Playfair Display;
             }
+        .font2 {
+                font-family: Fauna One;
+            }
+        .divfont {
+            font-family: Fauna One;
+        }
         .col-sm-12 {
             padding: 20px;
             
@@ -26,6 +34,27 @@
         .navbar-dark {
             color: #A0C3D9 !important;
         }
+        .divcolor {
+            background-color: #9BA649;
+        }
+        body {
+            background-color: #A0C3D9;
+        }
+        .fonthide {
+            color: #9BA649;
+        }
+        .fontcolor {
+            color: #013220;
+        }
+        .weight {
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .fontsize1 {
+            font-size: 30px;
+        }
         
         
         @media (min-width: 1200px)
@@ -35,18 +64,19 @@
             }
             .image1 {
                 height: 450px;
+                float: left;
             }
             .image2 {
                 float: right;
                 height: 450px;
                 position: relative;
-                bottom: 640px;
-                left: 680px;
+                bottom: 690px;
+                left: 660px;
             }
             .caption {
                 position: relative;
-                left: 700px;
-                bottom: 630px;
+                left: 665px;
+                bottom: 680px;
             }
             .up{
                 position: relative;
@@ -77,14 +107,14 @@
             .image3{
                 float: right;
                 position:relative;
-                bottom:380px;
+                bottom: 450px;
                 height: 400px;
                 width: 600px;
             }
             .caption1{
                 position: relative;
-                top: 45px;
-                left: 700px;
+                bottom: 20px;
+                left: 650px;
             }
             .image4 {
                 float: left;
@@ -97,7 +127,7 @@
             }
             .caption2 {
                 position: relative;
-                top: 110px;
+                top: 120px;
                 left: 15px;
             }
             .image5 {
@@ -105,22 +135,23 @@
                 height:390px ;
                 width: 250px;
                 position: relative;
-                bottom: 220px;
+                bottom: 280px;
                 right: 565px;
             }
             .caption3 {
                 position: relative;
                 right: 800px;
-                top: 170px;
+                top: 115px;
             }
             .paper {
                 position: relative;
                 bottom: 200px;
             }
             .img6 {
+                margin-left: 5px;
                 float: right;
                 height: 500px;
-                width: 750px;
+                width: 725px;
                 position: relative;
                 bottom: 175px;
             }
@@ -166,18 +197,19 @@
                 height: 400px;
                 width: 600px;
                 position: relative;
-                bottom: 150px;
+                bottom: 200px;
                
             }    
             .caption5 {
+                margin-left: 5px;
                 position: relative;
-                bottom: 150px;
-                left: 700px;
+                top: 225px;
+                left: 665px;
             }
             .app {
                 text-align: center;
                 position: relative;
-                bottom: 30px;
+                bottom: 50px;
             }
             .water {
                 position: relative;
@@ -199,19 +231,20 @@
             .good {
                 text-align: center;
                 position: relative;
-                bottom: 850px;
+                bottom: 880px;
             }
             .image10 {
+                margin-right: 10px;
                 width: 800px;
                 height: 600px;
                 position: relative;
-                bottom: 850px;
+                bottom: 857px;
                 left: 500px;
             }
             .goodp {
                 margin-left: 525px;
                 position: relative;
-                bottom: 900px;
+                bottom: 850px;
             }
             .green {
                 position: relative;
@@ -231,18 +264,18 @@
             .recycle {
                 text-align: right;
                 position: relative;
-                bottom: 1375px;
+                bottom: 1400px;
                 left: 150px;
             }
             .recycleimg {
                 float: right;
                 position: relative;
-                bottom: 1350px;
+                bottom: 1375px;
                 left: 400px;
             }
             .recyclep {
                 position: relative;
-                bottom: 1025px;
+                bottom: 1050px;
                 left: 800px;
             }
             .ideah {
@@ -271,7 +304,8 @@
             }
             .ideappp {
                 position: relative;
-                bottom: 725px;
+                bottom: 700px;
+                left: 25px;
             }
             .imgppp {
                 float : right;
@@ -283,7 +317,7 @@
                 margin-left: 500px;
                 position: relative;
                 right: 500px;
-                bottom: 580px;
+                bottom: 550px;
                 
             }
             .ideappppp {
@@ -341,124 +375,127 @@
     </div>
   </div>
 </nav>
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 id=intro class="hide">Renewables & The Environment</h1>
-                    <h1 class="h1 font1">Renewables & The Environment</h1>
-                    <h2 class="center">Introduction:</h2>
-                    <h4>Over the past few decades our planet has been plagued by problems like global warming, landslides filled with trash, contamination, food waste and so much more.</h4>
+                    <h1 id=intro class="hide font1 fonthide">Renewables & The Environment</h1>
+                    <h1 class="h1 font1 fontcolor weight">Renewables & The Environment</h1>
+                    <h2 class="center fontcolor weight">Introduction:</h2>
+                    <h4 class="font2 fontcolor">Over the past few decades our planet has been plagued by problems like global warming, landslides filled with trash, contamination, food waste and so much more.</h4>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-6">
                     <img src="https://climate.nasa.gov/system/internal_resources/details/original/656_cc-vs-gw-vs-wx-470x246.jpg" class="img-thumbnail img-fluid image1">
-                    <div>This picture shows a way pollution is suspended and the effects of global warming. Pollution is caused by suspending carbon dioxide, carbon monoxide, hydrocarbons, sulfur dioxide, nitrogen dioxides and particulate matter into the air. These gases come from burning fosil fules, coal, oil and gasoline which emits the greenhouse effect causing global warming and the air around us to become toxic to breathe. When global warming happens the Earth gets warmer and warmer which causes the ice caps in the South and North poles to melt which will cause mass flooding. Even if mass flooding isn't occuring right now it still affects the animals living there;like the polar bear. </div>
+                    <div class="divfont fontcolor">This picture shows a way pollution is suspended and the effects of global warming. Pollution is caused by suspending carbon dioxide, carbon monoxide, hydrocarbons, sulfur dioxide, nitrogen dioxides and particulate matter into the air. These gases come from burning fosil fules, coal, oil and gasoline which emits the greenhouse effect causing global warming and the air around us to become toxic to breathe. When global warming happens the Earth gets warmer and warmer which causes the ice caps in the South and North poles to melt which will cause mass flooding. Even if mass flooding isn't occuring right now it still affects the animals living there;like the polar bear. </div>
                     <img src="https://media.nationalgeographic.org/assets/photos/000/272/27281_c0-41-990-701_r1050x700.jpg?d4ccf3044d9da0d0118103be3a76bd1319370847" class="img-thumbnail img-fluid image2" align="right">
-                    <div class="caption">This picture shows a landfill filled with trash that could take up to thousands to hundreds of thousands of years to decompose.</div>
-                    
+                    <div class="caption divfont fontcolor fontsize1">This picture shows a landfill filled with trash that could take up to thousands to hundreds of thousands of years to decompose.</div>
                 </div>    
             </div>        
-        </div>      
-        <div class="container">
+        </div>          
+                
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12" "col-xl-6">
-                <h4 class="up">Fortunately for us technology has advanced meaning there are many innovations and inventions that helps us make Earth a better place. Here below are technologies both from the past and potentially the future that solves some problems about our environment.</h2>   
-                 <h1 id=past class="hide2">Past/Present technologies</h1>
-                 <h1 class="past">Past/Present Technologies:</h1>  
-                 <h2>Making Oil from Just about Anything:</h2>
-                 <p>From recent technology we are able to use any carbon-based waste like turkey guts, used tires, cans etc. to turn them into oil. To turn these waste into oil they just have to go through a process called thermo-depolymerization.Thermo depolymerization is a depolymerization that uses hydrous pyrolysis (when organic compounds are heated to high temperatures) to reduce complex organic compounds into oil. According to people that developed this process, a ton of turkey waste can make 600 pounds of petroleum which can be used to produce oil.</p>
+                <h4 class="up font2 fontcolor">Fortunately for us technology has advanced meaning there are many innovations and inventions that helps us make Earth a better place. Here below are technologies both from the past and potentially the future that solves some problems about our environment.</h2>   
+                 <h1 id=past class="hide2 font1 fonthide">Past/Present technologies</h1>
+                 <h1 class="past font1 fontcolor weight">Past/Present Technologies:</h1>  
+                 <h2 class="font1 fontcolor weight">Making Oil from Just about Anything:</h2>
+                 <p class="font2 fontcolor">From recent technology we are able to use any carbon-based waste like turkey guts, used tires, cans etc. to turn them into oil. To turn these waste into oil they just have to go through a process called thermo-depolymerization.Thermo depolymerization is a depolymerization that uses hydrous pyrolysis (when organic compounds are heated to high temperatures) to reduce complex organic compounds into oil. According to people that developed this process, a ton of turkey waste can make 600 pounds of petroleum which can be used to produce oil.</p>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h2>Plant Your Roof:</h2>
-                <figcaption class="caption1">This is the Chicago City Hall Green Roof and a great example of Plant Your Roof.</figcaption>
+                <h2 class="font1 fontcolor weight">Plant Your Roof:</h2>
+                <figcaption class="caption1 font2 fontcolor">This is the Chicago City Hall Green Roof and a great example of Plant Your Roof.</figcaption>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/20080708_Chicago_City_Hall_Green_Roof.JPG" class="img-fluid image3">
-                <p>Plant your roof is where buildings have gardens on top of their roofs. These roofs help absorb heat, reduce carbon dioxide impact by taking up CO2 and giving off oxygen, absorbs stormwater and also reduces summer air conditioning usage. Having these garden roofs can lead to butterflies, songbirds and other organisms having a nice stable environment to live in. </p>
-
-
-
+                <p class="font2 fontcolor">Plant your roof is where buildings have gardens on top of their roofs. These roofs help absorb heat, reduce carbon dioxide impact by taking up CO2 and giving off oxygen, absorbs stormwater and also reduces summer air conditioning usage. Having these garden roofs can lead to butterflies, songbirds and other organisms having a nice stable environment to live in. </p>
 
                 </div>
             </div>
         </div>
-        <div class="container">
+
+
+                
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h2>Let Plants and Microbes Clean Up After Us:</h2>
-                <figcaption class="caption2">A picture that shows the process of bioremediation</figcaption>
+                <h2 class="font1 fontcolor weight">Let Plants and Microbes Clean Up After Us:</h2>
+                <figcaption class="caption2 font2 fontcolor">A picture that shows the process of bioremediation</figcaption>
                 <img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/bioremediation.png" class="img-fluid image4">
-                <p>Bioremediation is the introduction of microorganisms and other forms of life that can consume and break down environmental pollutants. One example of this is the cleanup of nitrates in contaminated water with the help of microbes. Another example is using plants to uptake arsenic( a solid chemical element that is used in wood preservatives, alloys, and semiconductors and is extremely toxic) from contaminated soil. One example of this plant is the Arabidopsis. </p>
-                <p>Most of the time, native plant species are used for site cleanup. This is beneficial as it doesn’t require pesticides or watering. Scientists are also trying to genetically modify plants to take up contaminants in their roots then transport the contaminants to their leaves in order to make harvesting easier.</p>
+                <p class="font2 fontcolor">Bioremediation is the introduction of microorganisms and other forms of life that can consume and break down environmental pollutants. One example of this is the cleanup of nitrates in contaminated water with the help of microbes. Another example is using plants to uptake arsenic( a solid chemical element that is used in wood preservatives, alloys, and semiconductors and is extremely toxic) from contaminated soil. One example of this plant is the Arabidopsis. </p>
+                <p class="font2 fontcolor">Most of the time, native plant species are used for site cleanup. This is beneficial as it doesn’t require pesticides or watering. Scientists are also trying to genetically modify plants to take up contaminants in their roots then transport the contaminants to their leaves in order to make harvesting easier.</p>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Arabidopsis_thaliana_sl12.jpg" class="img-fluid image5">
-                <figcaption class="caption3">The plant Arabidopsis</figcaption>
-
-    
+                <figcaption class="caption3 font2 fontcolor">The plant Arabidopsis</figcaption>
                 </div>
             </div>
         </div>
-        <div class="container">
+    
+                
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h2 class="paper">Make Paper Obsolete:</h2>
-                <figcaption class="caption4">An example of obsolete paper.</figcaption>
+                <h2 class="paper font1 fontcolor weight">Make Paper Obsolete:</h2>
+                <figcaption class="caption4 font2 fontcolor">An example of obsolete paper.</figcaption>
                 <img src="https://idtxs3.imgix.net/si/40000/70/D9.png?w=800" class="img-fluid img6">
-                <p class="ppaper">Americans alone use around 85,000,000 tons of paper a year which is around 680 pounds per person. An invention that can help this problem is Nick Sheridon’s invention of the electronic paper.An electronic paper is a flexible display that looks a lot like real paper but can be reused again and again. The display contains microcapsules that are filled with particles that carry electric charges bonded to a steel foil. The black and white particles in the microcapsule are associated with either a positive or negative charge. Depending on which charge is applied, the black and white particles can display different patterns which are words, pictures etc. that you can see. </p>
+                <p class="ppaper font2 fontcolor">Americans alone use around 85,000,000 tons of paper a year which is around 680 pounds per person. An invention that can help this problem is Nick Sheridon’s invention of the electronic paper.An electronic paper is a flexible display that looks a lot like real paper but can be reused again and again. The display contains microcapsules that are filled with particles that carry electric charges bonded to a steel foil. The black and white particles in the microcapsule are associated with either a positive or negative charge. Depending on which charge is applied, the black and white particles can display different patterns which are words, pictures etc. that you can see. </p>
                  </div>
             </div>
         </div>
-        <div class="container">
+        
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h2 class="plastic">Plastic recycling:</h2>
-                <p class="plastic">Around 260 million tons of plastic waste is generated around the world every year, yet only 16 percent gets recycled. A process called pyrolysis can help this problem. Pyrolysis uses heat and the absence of oxygen to reconvert plastic waste back into a liquid feedstock which can be directly used as fuel or converted to another fuel or energy product. This recycling process can also save us $55 billion by the next decade. </p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                <h2 class="renewable"> Renewable Energy:</h2>
-                <img src="https://internationalbanker.com/wp-content/uploads/2019/11/Renewable-Energy.jpg" class="img-fluid img7">
-                <p class="renewable2">Renewable energy, also known as ‘clean energy’, is energy that is collected from renewable resources like sunlight, wind, rain, tides, waves, and geothermal heat. Modern environmental technology has allowed us to capture this renewable energy and convert it into electricity or useful heat through devices such as solar panels, wind and water turbines. While many renewable energy projects are large-scale, renewable technologies are also suited to remote areas and developing countries, where energy is crucial for human development.The prices of renewable energy technologies like solar panels and wind turbines are also falling, meaning that governments are able to better invest in them rather than alternatives that use nonrenewable energy.</p> 
-
+                <h2 class="plastic font1 fontcolor weight">Plastic recycling:</h2>
+                <p class="plastic font2 fontcolor">Around 260 million tons of plastic waste is generated around the world every year, yet only 16 percent gets recycled. A process called pyrolysis can help this problem. Pyrolysis uses heat and the absence of oxygen to reconvert plastic waste back into a liquid feedstock which can be directly used as fuel or converted to another fuel or energy product. This recycling process can also save us $55 billion by the next decade. </p>
                 </div>
             </div>
         </div>
         
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h2 class="smart">Smart technology:</h2>
-                <p class="smart">First off, smart technology are devices like linking sensors and other appliances that are connected to the Internet of Things (IoT).These devices can then be remotely monitored and programmed in order to be as energy efficient as possible and respond to the needs of the users.</p>
-                <p class="smart">The Internet of Things (IoT) is a network of internet-connected objects that are able to  collect and exchange data using embedded sensor technologies. This data allows devices in the network to ‘make decisions’ based on real-time information. For example, intelligent lighting systems only illuminate areas that require it and a smart thermostat keeps homes at certain temperatures during certain times of day, reducing wastage.</p>
-                <p class="smart">The technology of the internet demonstrates a positive impact of technology on the environment as social media is used to raise awareness of global issues. Experts from different fields can share their research, experience and ideas in order to come up with improved solutions that help our environments. In addition, traveling  is reduced since meetings/communication between friends and families can be done virtually, which reduces pollution from transport emissions.</p>
+                <h2 class="renewable font1 fontcolor weight"> Renewable Energy:</h2>
+                <img src="https://internationalbanker.com/wp-content/uploads/2019/11/Renewable-Energy.jpg" class="img-fluid img7">
+                <p class="renewable2 font2 fontcolor">Renewable energy, also known as ‘clean energy’, is energy that is collected from renewable resources like sunlight, wind, rain, tides, waves, and geothermal heat. Modern environmental technology has allowed us to capture this renewable energy and convert it into electricity or useful heat through devices such as solar panels, wind and water turbines. While many renewable energy projects are large-scale, renewable technologies are also suited to remote areas and developing countries, where energy is crucial for human development.The prices of renewable energy technologies like solar panels and wind turbines are also falling, meaning that governments are able to better invest in them rather than alternatives that use nonrenewable energy.</p> 
+                 </div>
+            </div>
+        </div>
+               
+        
+        <div class="container divcolor">
+            <div class="row">
+                <div class="col-sm-12">
+                <h2 class="smart font1 fontcolor weight">Smart technology:</h2>
+                <p class="smart font2 fontcolor">First off, smart technology are devices like linking sensors and other appliances that are connected to the Internet of Things (IoT).These devices can then be remotely monitored and programmed in order to be as energy efficient as possible and respond to the needs of the users.</p>
+                <p class="smart font2 fontcolor">The Internet of Things (IoT) is a network of internet-connected objects that are able to  collect and exchange data using embedded sensor technologies. This data allows devices in the network to ‘make decisions’ based on real-time information. For example, intelligent lighting systems only illuminate areas that require it and a smart thermostat keeps homes at certain temperatures during certain times of day, reducing wastage.</p>
+                <p class="smart font2 fontcolor">The technology of the internet demonstrates a positive impact of technology on the environment as social media is used to raise awareness of global issues. Experts from different fields can share their research, experience and ideas in order to come up with improved solutions that help our environments. In addition, traveling  is reduced since meetings/communication between friends and families can be done virtually, which reduces pollution from transport emissions.</p>
                 </div>
             </div>
         </div>
                
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h2 class="electric">Electric Vehicles:</h2>
-                <figcaption class="caption5">This graph shows the amount of gasoline saved when using electric vehicles.</figcaption>
+                <h2 class="electric font1 fontcolor weight">Electric Vehicles:</h2>
+                <figcaption class="caption5 font2 fontcolor">This graph shows the amount of gasoline saved when using electric vehicles.</figcaption>
                 <img src="https://cleantechnica.com/mrf4u/statics/i/ps/cdn.shopify.com/s/files/1/0196/5170/files/fotw1081_grande.png?v=1560192566&width=1200&enable=upscale" class="img-fluid image8">
-                <p class="electric">Electric vehicles are propelled by one or more electric motors, and use energy stored in rechargeable batteries.Electric vehicles demonstrate a positive impact of technology on the environment because they do not produce carbon emissions, which contribute towards the greenhouse effect and lead to global warming. Furthermore, they do not contribute to air pollution, meaning they are cleaner and less harmful to human health, animals, plants, and water.</p>
+                <p class="electric font2 fontcolor">Electric vehicles are propelled by one or more electric motors, and use energy stored in rechargeable batteries.Electric vehicles demonstrate a positive impact of technology on the environment because they do not produce carbon emissions, which contribute towards the greenhouse effect and lead to global warming. Furthermore, they do not contribute to air pollution, meaning they are cleaner and less harmful to human health, animals, plants, and water.</p>
                 </div>
             </div>
         </div>
-        <div class="container">
+        
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h1 class="app">Apps:</h1>
-                <h2 class="water">Waterprint:</h2>
+                <h1 class="app font1 fontcolor weight">Apps:</h1>
+                <h2 class="water font1 fontcolor weight">Waterprint:</h2>
                 <img src="https://emagazine.com/wp-content/uploads/images/green-app-picks/WaterprintScreenShot.jpg" class="img-fluid image9">
-                <p class="waterp">This app helps calculate your carbon footprint and tells you how to save water. It takes into account the water you wear, eat and drink. For example, it calculates how much water is spent to grow an apple, produce one pound of meat, or make a shirt.</p>
+                <p class="waterp font2 fontcolor">This app helps calculate your carbon footprint and tells you how to save water. It takes into account the water you wear, eat and drink. For example, it calculates how much water is spent to grow an apple, produce one pound of meat, or make a shirt.</p>
                 </ul>
                 </div>
             </div>
@@ -467,69 +504,69 @@
         
         
         
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h2 class="good">Good Guide:</h2>
+                <h2 class="good font1 fontcolor weight">Good Guide:</h2>
                 <img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2015/3/23/1/SSS-Live-Healthier-GoodGuide.jpg.rend.hgtvcom.966.725.suffix/1427135287563.jpeg" class="img-fluid image10">
-                <p class="goodp">Good Guide helps us know which products we use are ethical,green, safe to use and which ones aren’t. The app is based on scientific research and covers personal care products,household products,babies & kids products. It’s available for Android and iOS.</p>
+                <p class="goodp font2 fontcolor">Good Guide helps us know which products we use are ethical,green, safe to use and which ones aren’t. The app is based on scientific research and covers personal care products,household products,babies & kids products. It’s available for Android and iOS.</p>
                 </div>
             </div>
         </div>
         
-        <div class="container">
+        <div class="container divcolor">
             <div class="row greendiv">
                 <div class="col-sm-12">
-                <h2 class="green">GreenChoice:</h2>
-                <p class="greenp">The food industry is one of the largest contributors to climate change in the world. When you are making sustainable choices at the grocery store, sorting through thousands of products and deciphering labels can be exhausting and overwhelming. So GreenChoice is a free app that does these things for you, it helps you buy the best food products for you and the environment, while saving you time and money shopping.</p>
-                <ul class="greenul">Here's how the app works:
-                <li>It sets your preferred shopping values, your dietary preferences, and allergies you have.</li>
-                <li>It searches for food products to see their comprehensive, unbiased GreenScore ratings(whether these foods are good to the environment or not)  and adds suggestions for better alternatives.</li>
-                <li>It helps compare product prices across grocery stores in your area and online.</li>
-                <li>And build your grocery list with the most cost-effective and sustainable products.</li>
+                <h2 class="green font1 fontcolor weight">GreenChoice:</h2>
+                <p class="greenp font2 fontcolor">The food industry is one of the largest contributors to climate change in the world. When you are making sustainable choices at the grocery store, sorting through thousands of products and deciphering labels can be exhausting and overwhelming. So GreenChoice is a free app that does these things for you, it helps you buy the best food products for you and the environment, while saving you time and money shopping.</p>
+                <ul class="greenul font2 fontcolor">Here's how the app works:
+                <li class="font2 fontcolor">It sets your preferred shopping values, your dietary preferences, and allergies you have.</li>
+                <li class="font2 fontcolor">It searches for food products to see their comprehensive, unbiased GreenScore ratings(whether these foods are good to the environment or not)  and adds suggestions for better alternatives.</li>
+                <li class="font2 fontcolor">It helps compare product prices across grocery stores in your area and online.</li>
+                <li class="font2 fontcolor">And build your grocery list with the most cost-effective and sustainable products.</li>
                 </ul>
-                <p class="greenp">Overall the GreenChoice app has evaluated and rated more than 340,000 food & beverage products’ impact on your wellbeing and the planet’s, allowing you to eat healthily and shop sustainably. GreenChoice is available on both Apple iOS and Android.</p>
+                <p class="greenp font2 fontcolor">Overall the GreenChoice app has evaluated and rated more than 340,000 food & beverage products’ impact on your wellbeing and the planet’s, allowing you to eat healthily and shop sustainably. GreenChoice is available on both Apple iOS and Android.</p>
                 </div>
             </div>
         </div>
         
-        <div class="container">
+        <div class="container divcolor">
             <div class="row greendiv">
                 <div class="col-sm-12">
-                <h2 class="recycle">iRecycle:</h2>
+                <h2 class="recycle font1 fontcolor weight">iRecycle:</h2>
                 <img src="https://utah.momentumrecycling.com/wp-content/uploads/2017/12/iRecycle-App-Icon.png" class="img-fluid recycleimg">
-                <p class="recyclep">This app helps you find nearby recycling opportunities for anything you need to recycle like: batteries, old electronics, glass, chemicals, paper, metal,etc.</p>
+                <p class="recyclep font2 fontcolor">This app helps you find nearby recycling opportunities for anything you need to recycle like: batteries, old electronics, glass, chemicals, paper, metal,etc.</p>
                 </div>
             </div>
         </div>
         
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <h1 id=future class="hide3">My Ideas for the Future</h1>
-                <h1 class="ideah">My Ideas for the Future:</h1>
-                <p class="ideap">1. One of my ideas is the creation of machines that are able to make unrecyclable materials recyclable. These machines would be programmed to do specific things according to the material. There are actually many types of materials that aren’t recyclable such as brightly dyed papers, juice boxes and other coated cardboard drink containers which can also contain wax (some places accept them while some don’t), pizza boxes as they contain a lot of grease, takeout containers with food residues,, and etc. Here are my ideas for each of these materials:</p>
-                <p class="ideapp">a. Brightly dyed papers: My idea for brightly dyed papers is that the machines would only recycle dyed paper of the same color and the same paper type so the dye wouldn’t bleed to other colored papers, especially white paper. </p>
+                <h1 id=future class="hide3 font1 fonthide">My Ideas for the Future</h1>
+                <h1 class="ideah font1 fontcolor weight">My Ideas for the Future:</h1>
+                <p class="ideap font2 fontcolor">1. One of my ideas is the creation of machines that are able to make unrecyclable materials recyclable. These machines would be programmed to do specific things according to the material. There are actually many types of materials that aren’t recyclable such as brightly dyed papers, juice boxes and other coated cardboard drink containers which can also contain wax (some places accept them while some don’t), pizza boxes as they contain a lot of grease, takeout containers with food residues,, and etc. Here are my ideas for each of these materials:</p>
+                <p class="ideapp font2 fontcolor">a. Brightly dyed papers: My idea for brightly dyed papers is that the machines would only recycle dyed paper of the same color and the same paper type so the dye wouldn’t bleed to other colored papers, especially white paper. </p>
                 <img src="https://grist.org/wp-content/uploads/2009/06/paper.jpg" class="img-fluid imgp">
                 <img src="https://myrye.com/wp-content/uploads/2016/04/6a00d8341d20cd53ef01bb08eb0d99970d-300wi.jpg" class="img-fluid imgpp">
-                <p class="ideappp"> b. Cardboard drink containers coated with wax:  I want to see a way where machines are able to strip wax layers off cartons allowing these cartoons to be recyclable.</p>
-                <p class="ideapppp">c. Greasy pizza boxes:  I want to see a machine that is able to clean grease off of cardboard allowing it to be recyclable or identify the parts that are too greasy, cut the greasy parts off and separate the clean and greasy parts. The clean parts can then be recycled.</p>
+                <p class="ideappp font2 fontcolor"> b. Cardboard drink containers coated with wax:  I want to see a way where machines are able to strip wax layers off cartons allowing these cartoons to be recyclable.</p>
+                <p class="ideapppp font2 fontcolor">c. Greasy pizza boxes:  I want to see a machine that is able to clean grease off of cardboard allowing it to be recyclable or identify the parts that are too greasy, cut the greasy parts off and separate the clean and greasy parts. The clean parts can then be recycled.</p>
                 <img src= "https://anicehome.com.au/wp-content/uploads/oily-pizza-boxes-recycling-768x401.jpg" class="img-fluid imgppp">
-                <p class="ideappppp">d. Food containers containing food residues: Machines can just suck up those food which can actually be used for soil fertilizer, and if there is some oil left over the machines can clean it and maybe in the future there is a way to reuse this oil.</p>
+                <p class="ideappppp font2 fontcolor">d. Food containers containing food residues: Machines can just suck up those food which can actually be used for soil fertilizer, and if there is some oil left over the machines can clean it and maybe in the future there is a way to reuse this oil.</p>
                 
                 
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container divcolor">
             <div class="row">
                 <div class="col-sm-12">
-                <p class="idea2">2. My second idea  is an app where you can add your own ideas of diy projects that use materials you have around the house or any types of materials that are able to be reused. This is a great idea as you can do something fun while decreasing the amount of trash you throw away. First of all I think the app will provide some background information on common materials that can be reused and why it is important to reuse after you created an account . Then you can start to create a page of your project ideas or existing project ideas with a title, materials, a tutorial via writing or video that you can upload, some pictures, etc. You may like,comment, save people’s blogs to view later and follow along with people’s tutorials. There can be a search bar where you can search for project ideas that you like and want to see and the materials you have. There can also be add ons like different templates for the pages you want to create, some available fonts, colors, and sizes so you can be as creative as you want. There have already been many creative ideas that I have seen that use recyclable materials like plastic, paper, cardboard and more so I think it is a good idea to have an app that compiles all of them in the same area.</p>
-                
-                
+                <p class="idea2 font2 fontcolor">2. My second idea  is an app where you can add your own ideas of diy projects that use materials you have around the house or any types of materials that are able to be reused. This is a great idea as you can do something fun while decreasing the amount of trash you throw away. First of all I think the app will provide some background information on common materials that can be reused and why it is important to reuse after you created an account . Then you can start to create a page of your project ideas or existing project ideas with a title, materials, a tutorial via writing or video that you can upload, some pictures, etc. You may like,comment, save people’s blogs to view later and follow along with people’s tutorials. There can be a search bar where you can search for project ideas that you like and want to see and the materials you have. There can also be add ons like different templates for the pages you want to create, some available fonts, colors, and sizes so you can be as creative as you want. There have already been many creative ideas that I have seen that use recyclable materials like plastic, paper, cardboard and more so I think it is a good idea to have an app that compiles all of them in the same area.</p>
                 </div>
             </div>
         </div>
+                
+
 
 
 
